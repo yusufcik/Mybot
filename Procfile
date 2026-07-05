@@ -1,1 +1,1 @@
-worker: python hayvon.py
+worker: python Kinobot.py
