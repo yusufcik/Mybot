@@ -16,7 +16,8 @@ import sqlite3
 import telebot
 from telebot import types
 
-BOT_TOKEN = "8939541620:AAHEejKQGkKd_5Y7QXZzZUUHZl8xqd_br0s"
+import os
+BOT_TOKEN = os.environ.get("8939541620:AAGdMdoN-7zU347stwAC_kDpQzgEXDVN_fg")
 
 bot = telebot.TeleBot(BOT_TOKEN)
 
